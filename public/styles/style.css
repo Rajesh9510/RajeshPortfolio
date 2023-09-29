@@ -1,0 +1,207 @@
+/* this file for customize css if we wont to use rather then bootstrap */
+body
+{
+    background-color: white;
+}
+.navbar{
+    height: 77px;
+    background-color: #f2f2f2;
+    /* position: sticky !important;
+    top: 0%;
+    background-color: transparent;
+    z-index: 99;
+    backdrop-filter: blur(5px); */
+}
+.logo
+{
+    width: 90px;
+}
+
+.nav-item
+{
+    margin-right: 30px;
+   
+}
+.container
+{
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.subhero
+{
+    margin: 40px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+.hero h1{
+    font-size: 3rem;
+    margin: 100px 0 20px 0 ;
+    opacity: .7;
+    font-weight: bold;
+}
+.hero p{
+    font-size: 1.2rem;
+    margin: 5px 0 5px 0 ;
+    opacity: .6;
+}
+.hero img{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.intro
+{
+    
+    border-radius: 12px;
+    /* padding: 40px 40px ; */
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.intro p
+{
+    margin:10px 20px;
+}
+
+.boxes
+{
+    padding-bottom: 40px;
+}
+.card
+{
+    margin: 30px 10px;
+    border-radius: 20px;
+}
+.resume
+{
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background-color: #f2f2f2;
+    border-radius: 13px;
+}
+.resume button
+{
+    background-color: white;
+    margin: 12px;
+}
+.resume a{
+    background-color: white;
+    margin: 12px; 
+}
+
+
+.row
+{
+    --bs-gutter-x: -0.5rem!important;
+}
+
+.project
+{
+    background-color: #f2f2f2;
+    margin: 70px 40px;
+    border-radius: 12px;
+}
+.project h1{
+    margin-top: 30px;
+}
+.contact
+{
+    background-color: #f2f2f2;
+    margin: 70px 40px ;
+    border-radius: 12px;
+
+}
+.contact h1{
+    margin-top: 30px;
+}
+.contact button
+{
+    margin-bottom: 12px;
+    background-color: rgb(255, 255, 254) !important;
+    color: black;
+
+}
+.mail
+{
+    font-size: 14px;
+}
+.conimage
+{
+    margin-top: 50px;
+}
+
+.containt-start{
+    text-align: start;
+}
+
+@media (min-width:1200px) {
+    .pl-xl-5{
+        padding-left: 3rem
+    }
+    .pr-xl-5{
+        padding-right: 3rem;
+    }
+}
+
+@media (max-width:426px)
+{
+    .m-sm-3{
+        margin: 15px;
+    }
+    .mb-sm-3{
+        margin-bottom: 15px !important;
+    }
+    .resume{
+        width:100% !important;
+        margin: 45px 15px 15px 15px;
+        
+    }
+   .formdetail button
+   {
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+   }
+   .sm-text-center{
+    text-align: center  ;
+   }
+    .project ,.contact{
+        margin: 45px 17px;
+    }
+    .hero img{
+    width: 210px;
+    height:210px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    }
+    .hero p
+    {
+        font-size: 0.8rem;
+        margin: 31px 0 39px 0;
+        opacity: 0.6;
+    }
+    .hero h1
+    {
+    font-size: 2rem;
+    margin: 99px 0px 23px 0px;
+    opacity: .7;
+    font-weight: bold;
+    }
+    .navdiv{
+        margin-top: -17px;
+    }
+}
+
+
+@media (max-width:1025) {
+    .resume
+    {
+
+    }
+
+}

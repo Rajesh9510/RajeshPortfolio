@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="192x192" href="../public/images/fabicon.png">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"> </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Ubuntu:wght@300&display=swap');
+  </style>
+  <link rel="stylesheet" href="public/styles/style.css">
+  <title>home</title>
+</head>
+
+<body>
+  {{> nav}}
+  <div class="container ">
+
+    <div class="hero text-center  ">
+      <h1>Welcome To My Portfolio</h1>
+      <p>I'm Rajesh, a passionate web developer. Exploring the world of web development.</p>
+      <img src="../public/images/my.png" alt="image">
+    </div>
+  </div>
+
+
+  <div class="subhero m-xl-5 m-sm-3" id="about">
+    <div class="intro text-center pl-xl-5 pr-xl-5 pt-xl-5">
+      <h2 class="pt-3">Hello, I'm Rajesh,</h2>
+      <p class="containt-start">
+        a web developer based in Surat, Gujarat. I hold a Bachelor of Science in Information Technology (B.Sc IT)
+        degree from GLS University. My journey into the world of web development started with a fascination for
+        creating digital experiences that combine form and function.I'm truly passionate about web development because
+        it allows me to turn creative ideas into functional and user-friendly websites. My journey began during my
+        academic years, and I've never looked back since.
+      </p>
+    </div>
+    <div class="card-group boxes">
+      <div class="card rounded">
+        <div class="card-body ">
+          <h5 class="card-title">Skills and Expertise</h5>
+          <p class="containt-start card-text">I have developed proficiency in a range of technologies, including HTML,
+            CSS, JavaScript,
+            Node.js, and more. My goal is to create seamless, responsive, and interactive web experiences.
+          </p>
+
+        </div>
+      </div>
+      <div class="card rounded">
+        <div class="card-body ">
+          <h5 class="card-title">Professional Journey</h5>
+          <p class="containt-start card-text">Throughout my career, I've had the privilege to work on diverse and
+            challenging projects,
+            each of which has contributed to my growth as a developer. From building e-commerce platforms to crafting
+            engaging web applications, I've enjoyed every step of the journey.
+          </p>
+
+        </div>
+      </div>
+      <div class="card rounded">
+        <div class="card-body ">
+          <h5 class="card-title">What Sets Me Apart</h5>
+          <p class="containt-start card-text">What sets me apart is my dedication to staying up-to-date with the latest
+            web development
+            trends and technologies. I'm committed to delivering high-quality work, and I approach every project with a
+            keen eye for detail and a passion for excellence.
+          </p>
+        </div>
+      </div>
+      <div class="card rounded">
+        <div class="card-body">
+          <h5 class="card-title">Continuous Learning</h5>
+          <p class="containt-start card-text">In addition to my degree, I continually seek opportunities for learning
+            and improvement.
+            I attend workshops, read industry publications, and participate in online courses to stay on the cutting
+            edge of web development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="justify-content-center d-flex">
+    <div class="resume m-xl-3   " id="resume">
+      <h1 class="text-center">Resume</h1>
+      {{!-- <img src="../public/images/resume.jpg" class="img-fluid" alt="..."> 
+      <div class="d-grid gap-2 col-6 mx-auto btn"> --}}
+        <div class="d-grid col-5 gap-2 mx-auto justify-content-center">
+          <button class="btn " type="button">View Resume</button>
+          <a href="../public/images/resumepdf.pdf" download class="btn btn2 ">Download Resume</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project" id="project">
+      <h1 class="text-center ">Projects</h1>
+      <div class="row ">
+
+        <div class="col-xl-6 col-12 mb-4 mb-sm-0">
+          <div class="card">
+            <img src="../public/images/pro1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> Creating a clone of a popular website like Microsoft using HTML, CSS, and a CSS
+                framework like Tailwind CSS is a great way to improve your web development skills. It allows you to
+                practice HTML and CSS layout techniques, design principles, and the use of external libraries to style
+                your page</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-12 ">
+          <div class="card">
+            <img src="../public/images/pro2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-12 ">
+          <div class="card">
+            <img src="../public/images/pro3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-12 ">
+          <div class="card">
+            <img src="../public/images/pro5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <div class="row   ">
+        <h1 class="text-center ">Contact</h1>
+        <div class="col-sm-6 col-xl-3  mb-sm-0 con">
+          <div class="card">
+            <div class="card-body text-center">
+              <p><i class="fa-solid fa-location-dot icon d-flex align-items-center justify-content-center mb-6"></i></p>
+              <h5 class="card-title">Address</h5>
+              <p class="card-text">Surat-395006,Gujarat,India</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3  mb-sm-0 con">
+          <div class="card">
+            <div class="card-body text-center">
+              <p><i class="fa-solid fa-phone icon d-flex align-items-center justify-content-center mb-6"></i></p>
+              <h5 class="card-title">Contact</h5>
+              <p class="card-text">+91 9510209890</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3 mb-sm-0 con">
+          <div class="card">
+            <div class="card-body text-center ">
+              <p><i class="fa-solid fa-paper-plane icon d-flex align-items-center justify-content-center mb-6"></i>
+              <p>
+              <h5 class="card-title">Email Address</h5>
+              <p class="card-text mail ">rajeshmangukiya1414@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3  mb-sm-0 con">
+          <div class="card">
+            <div class="card-body text-center">
+              <p><i class="fa-solid fa-earth-americas icon d-flex align-items-center justify-content-center mb-6"></i>
+              <p></p>
+              <h5 class="card-title">Website</h5>
+              <p class="card-text">Rajesh.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-6 conimage text-center d-none d-xl-block d-md-block">
+          <img src="../public/images/contact.png" alt="error" class="w-50 ">
+        </div>
+        
+        <div class="col-xl-6 formdetail  mt-5">
+        <form action="/contactdata" method="POST">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+            <input type="text" class="form-control" name="user" id="exampleFormControlInput1" placeholder="Name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Your Email address</label>
+            <input type="email" class="form-control" 
+            name="email"
+            id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
+          </div>
+          <div class="sm-text-center">
+            <button type="submit" 
+            name="submit"
+            class="btn  "
+              style="--bs-btn-padding-y: .45rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .95rem; " >
+              Submit
+            </button>
+          </div>
+           </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" style="background-color:#f2f2f2">
+      <footer class=" text-center text-white ">
+        <div class="container p-4 pb-0">
+          <section class="mb-0">
+            <!-- Facebook -->
+            <a class="btn text-white btn-floating m-1 target-blank" style="background-color: #3b5998;"
+              href="https://www.facebook.com/rajesh.mangukiya.9277" target="_blank" role="button"><i
+                class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+              href="https://twitter.com/RajeshM73046570" target="_blank" role="button"><i
+                class="fab fa-twitter"></i></a>
+
+
+            <!-- Instagram -->
+            <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+              href="https://www.instagram.com/_rajesh721_/" target="_blank" role="button"><i
+                class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+              href="https://www.linkedin.com/in/rajesh-mangukiya-9961571b8/" target="_blank" role="button"><i
+                class="fab fa-linkedin-in"></i></a>
+            <!-- Github -->
+            <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+              href="https://github.com/Rajesh9510" target="_blank" role="button"><i class="fab fa-github"></i></a>
+              <div class="text-center p-3" style="color:black">
+                 © 2023 Copyright:
+                <a class="text-black" href="https://mdbootstrap.com/">rajesh.com</a>
+              </div>
+            </section>
+          </div>
+       </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
