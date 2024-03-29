@@ -11,5 +11,5 @@
 ![Screenshot 2024-03-29 234618](https://github.com/Rajesh9510/RajeshPortfolio/assets/87410952/7d7bf832-44df-4bd4-bef7-8043cb990841)
 
 # SetUp
-1)npm install
+1)npm install,
 2)npm run dev
