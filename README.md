@@ -2,7 +2,7 @@
 
 
 # Desktop Preview
-![Screenshot 2024-03-29 234539](https://github.com/Rajesh9510/RajeshPortfolio/assets/87410952/c2c0d411-50cd-4b5a-84ab-ee0a217b91b4)
+![Screenshot 2024-05-25 150634](https://github.com/Rajesh9510/RajeshPortfolio/assets/87410952/ecfcda2d-e827-466d-9b6f-14701fbb37dd)
 
 # Mobile Preview 
 ![Screenshot 2024-03-29 234642](https://github.com/Rajesh9510/RajeshPortfolio/assets/87410952/70658975-20b5-4ce9-9d12-ac2378c60e8f)
